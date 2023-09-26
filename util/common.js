@@ -1,0 +1,16 @@
+module.exports = {
+  TASK_STATUSES: {
+    OPEN: 1,
+    IN_PROGESS: 2,
+    COMPLETED: 3,
+  },
+  STATUS_CODES: {
+    SUCCESS: 200,
+    BAD_REQUEST: 400,
+    UNAUTHORIZED: 401,
+    FORBIDDEN: 403,
+    NOT_FOUND: 404,
+    UNPROCESSABLE_ENTITY: 422,
+    FAILED: 500,
+  },
+};
